@@ -1,0 +1,44 @@
+
+.home {
+    height: 1080px;
+    background-image: url("../images/bg_hero_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container-home {
+    padding-top: 20vh;
+    /*vh indica la percentule di altezza della pagina, in questo caso imposto un padding-top che sarà il 20% dell'altezza della pagina
+                            vw avrebbe indicato la percentuale della lunghezza della pagina */
+
+}
+
+#header-home {
+    margin-top: 10vh;
+}
+
+#img-home {
+    max-height: 550px;
+    min-width: 200px;
+}
+
+/*NAVIGATION*/
+.navbar-floating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom:50px;
+}
+
+#btn-nav {
+    padding: 10px 15px 10px 15px;
+    margin-right: 20px;
+    background-color: #3f3fc2;
+    color: #fff;
+    border-radius: 20px;
+}
+#btn-nav:hover {
+    box-shadow: 0 4px 16px 1px darkblue;
+}
