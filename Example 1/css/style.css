@@ -42,3 +42,12 @@
 #btn-nav:hover {
     box-shadow: 0 4px 16px 1px darkblue;
 }
+/*CLIENTS IMAGES*/
+#img-beauty {
+    max-height: 100px;
+    min-width: 50px;
+}
+#img-sport {
+    max-heigth: 100px;
+    min-width: 50px;
+}
