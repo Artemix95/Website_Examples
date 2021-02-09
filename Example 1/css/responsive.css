@@ -13,13 +13,13 @@
 
 @media (min-width: 423px) and (max-width: 500px) {
     #container-home {
-        padding-top: 20vh;
+        padding-top: 15vh;
     }
 }
 
-@media (min-height: 0px) and (max-height: 500px) {
+@media (min-height: 0px) and (max-height: 400px) {
     #container-home {
-        padding-top: 70px;
+        padding-top: 10vh;
     }
 
 }

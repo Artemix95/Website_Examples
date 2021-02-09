@@ -21,6 +21,10 @@
     max-height: 550px;
     min-width: 200px;
 }
+#img-home2 {
+    max-height: 550px;
+    min-width: 200px;
+}
 
 /*NAVIGATION*/
 .navbar-floating {
@@ -29,7 +33,7 @@
     left: 0;
     width: 100%;
     padding-top: 20px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
 #btn-nav {
@@ -39,15 +43,35 @@
     color: #fff;
     border-radius: 20px;
 }
+
 #btn-nav:hover {
     box-shadow: 0 4px 16px 1px darkblue;
 }
-/*CLIENTS IMAGES*/
-#img-beauty {
-    max-height: 100px;
-    min-width: 50px;
+
+#fa1 {
+    max-width:100px;
+    padding: 15px;
 }
-#img-sport {
-    max-heigth: 100px;
-    min-width: 50px;
+#fa2 {
+    max-width:100px;
+    padding: 15px;
+}
+#fa3 {
+    max-width:100px;
+    padding: 15px 20px 15px 20px;
+}
+.container-fa1 {
+    max-width:100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.container-fa2 {
+    max-width:100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.container-fa3 {
+    max-width:100px;
+    border-radius: 50%;
+    background-color: orange;
 }
